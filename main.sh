@@ -11,6 +11,6 @@ curl -s https://raw.githubusercontent.com/rancher/k3d/master/install.sh | bash
 k3d create
 
 # export kubeconfig
-sleep 5
+sleep 10
 export KUBECONFIG="$(k3d get-kubeconfig --name='k3s-default')"
 
