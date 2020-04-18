@@ -1,0 +1,13 @@
+name: "k3d"
+description: "Add k3d cluster support to actions"
+inputs:
+  version: # id of input
+    description: "k3d version"
+    required: true
+    default: "World"
+outputs:
+  time: # id of output
+    description: "The time we greeted you"
+runs:
+  using: "node12"
+  main: "index.js"
